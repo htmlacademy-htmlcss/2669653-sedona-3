@@ -369,19 +369,19 @@ width:580px
 }
 
 .service-house::before{
-  background-image: url("/images/house-icon.svg");
+  background-image: url("../images/house-icon.svg");
   width: 75px;
   height: 72px;
 }
 
 .service-food::before{
-  background-image: url("/images/food-icon.svg");
+  background-image: url("../images/food-icon.svg");
   width: 75px;
   height: 72px;
 }
 
 .service-souvenirs::before{
-  background-image: url("/images/souvenirs-icon.svg");
+  background-image: url("../images/souvenirs-icon.svg");
   width: 75px;
   height: 72px;
   background-size: contain;
@@ -650,7 +650,7 @@ height:78px;
   content:"";
   width:7px;
   height:10px;
-  background-image: url("/images/arrow.svg");
+  background-image: url("../images/arrow.svg");
   padding-right: 10px;
   background-repeat: no-repeat;
 
@@ -658,7 +658,7 @@ height:78px;
 
 
 .breadcrumbs-link-main{
-background-image: url("/images/home.svg");
+background-image: url("../images/home.svg");
 width: 12px;
 height: 12px;
 background-repeat: no-repeat;
@@ -1114,16 +1114,16 @@ a {
    }
 
 .stars-4{
-  background-image: url("/images/stars-4.svg");
+  background-image: url("../images/stars-4.svg");
   background-repeat: no-repeat;
 }
 
 .stars-3{
-  background-image: url("/images/stars-3.svg");
+  background-image: url("../images/stars-3.svg");
   background-repeat: no-repeat;
 }
 
 .stars-2{
-  background-image: url("/images/stars-2.svg");
+  background-image: url("../images/stars-2.svg");
   background-repeat: no-repeat;
 }
