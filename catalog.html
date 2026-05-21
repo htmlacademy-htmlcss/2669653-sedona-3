@@ -21,7 +21,7 @@
             <a class="navigation-link" href="about.html">О седоне</a>
           </li>
           <li class="navigation-iterm">
-            <a class="navigation-link" href="catalog.html">Гостиницы</a>
+            <a class="navigation-link navigation-link-active" href="catalog.html">Гостиницы</a>
           </li>
           </ul>
           <ul class="navigation-user">
@@ -42,7 +42,7 @@
 <path d="M9.9 19C9.6 19 9.3 18.9 9.1 18.6C3.7 12.5 2.4 11.1 2.1 10.7C1.4 9.8 1 8.6 1 7.4C1 4.4 3.4 2 6.5 2C7.8 2 9 2.5 10 3.3C11 2.5 12.3 2 13.5 2C16.5 2 19 4.4 19 7.4C19 8.7 18.5 9.9 17.7 10.8L10.7 18.7C10.5 18.9 10.3 19 9.9 19ZM3.9 9.5C4.2 9.9 7.4 13.5 10 16.4L16.2 9.4C16.7 8.9 16.9 8.2 16.9 7.4C16.9 5.6 15.4 4.1 13.6 4.1C12.6 4.1 11.6 4.6 10.9 5.4C10.6 5.7 10.3 5.8 10 5.8C9.7 5.8 9.4 5.6 9.2 5.4C8.5 4.6 7.5 4.1 6.5 4.1C4.7 4.1 3.2 5.6 3.2 7.4C3.1 8.3 3.5 9 3.9 9.5C3.8 9.5 3.8 9.5 3.9 9.5Z" fill="black"/>
 </svg>
               <span class="visually-hidden">12</span>
-              <span class="twelve">12</span>
+              <span class="favorites">12</span>
             </a>
              <li class="navigation-iterm">
             <a href="#"  class="button-want">Хочу сюда!</a>
@@ -55,13 +55,11 @@
         <section class="catalog-services">
         <h1 class="inner-header-title">Гостиницы Седоны</h1>
         <ul class="breadcrumbs">
-          <li class="breadcrumbs-iterm">
-            <a class="breadcrumbs-link-main" href="index.html">
-             </a>
-              <span class="visually hidden"></span>
-
+          <li class="breadcrumbs-item">
+            <a class=" breadcrumbs-link breadcrumbs-link-main" href="index.html">
+            </a>
             </li>
-          <li class="breadcrumbs-iterm breadcrumbs-hotel">
+          <li class="breadcrumbs-item">
             <a class="breadcrumbs-link">Гостиницы
             </a>
           </li>
@@ -69,7 +67,7 @@
           <form class="catalog-filters" action="https://echo.htmlacademy.ru/" method="get">
         <h2 class="visually hidden"></h2>
            <fieldset class="infrastructyre-filter">
-            <legend class="catalog-filer-title">Инфраструктура
+            <legend class="catalog-filer-title">Инфраструктура:
             </legend>
             <ul class="infrastructyre-list">
               <li class="infrastructyre-item">
@@ -93,7 +91,7 @@
             </ul>
           </fieldset>
           <fieldset class="housing-filter">
-            <legend class="catalog-filer-title">Тип жилья
+            <legend class="catalog-filer-title">Тип жилья:
             </legend>
             <ul class="housing-list">
               <li class="housing-item">
@@ -121,21 +119,23 @@
             <legend class="catalog-filter-title"> Стоимость,Р
             </legend>
             <div class="filter-container">
-            <span class="from">
-            <label> от
-            </span>
-            <input type="number" name="price-from" id="price-from" value="0">
-            </label>
-            <label><!--до-->
+            <label class="filter-from-to from"> от </label>
+           <input type="number" name="price-from" id="price-from" value="0">
+            <label class="filter-from-to to"> до </label>
             <input type="number" name="price to" id="price-to" value="9000">
-            </label>
             </div>
-             </fieldset>
-          <div class="submit-reset-filter">
+            <div class="range">
+             <div class="range-slider">
+             <button class="range-button minimal" type="button"></button>
+            <button class="range-button maximal" type="button"></button>
+            </div>
+            </div>
+            </fieldset>
+             <div class="submit-reset-filter">
           <button class="button-submit" type="submit">Применить</button>
           <button class="button-reset" type="reset">Сбросить</button>
           </div>
-         </form>
+           </form>
        </header>
       </section>
        <section class="name-hotels">
@@ -209,9 +209,9 @@
               <span class="grade">Рейтинг: 6,9</span>
           </li>
           <li class="hotel-card">
-            <a href="#" class="hotel-card-image-link" style="height:252px">
+            <a href="#" class="hotel-card-image-link">
               <img src="images/greentree.jpg" width="300" height="212" alt="GreenTree Inn">
-              <h3 class="hotel-card-name">GreenTree Inn</h3>
+              <h3 class="hotel-name">GreenTree Inn</h3>
             </a>
             <span class="type">Гостиница</span>
             <span class="price">От 1500р</span>
