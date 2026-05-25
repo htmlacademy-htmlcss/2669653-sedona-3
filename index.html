@@ -172,30 +172,34 @@
 </svg>
 </button>
  <form class="modal-form" action="https://echo.htmlacademy.ru/" method="get">
-    <div class="modal-date">
-    <label class="label-text" for="date-to">Дата заезда </label>
-    <div class="modal-date">
+    <div class="modal-field">
+    <label class="label-text" for="date-to">Дата заезда: </label>
     <input class="date-arrive" id="date-to" value="27 апреля 2020">
-    <button class="button-calendar" type="button"></button>
-    </div>
-    <p class="visually-hidden">Календарь</p>
-    <p class="wrong-date">Мы не можем отправить вас в прошлое</p>
-    <div class="date-field">
-    <label class="label-text" for="date-from">Дата заезда </label>
-    <div class="modal-date">
-    <input class="date-departure" id="date-from" value="27 апреля 2020">
-    <button class="button-calendar" type="button"></button>
-    <span class="visually-hidden">Календарь</span>
-    </div>
-    <p class="right-date">На эти даты есть свободные номера. Пока есть.</p>
-    </div>
-  </form>
+         </div>
+   <p class="wrong-date">Мы не можем отправить вас в прошлое.</span>
 
 
 
+    <div class="modal-field">
+    <label class="label-text" for="date-from">Дата выезда: </label>
+    <input class="date-departure" id="date-from" value="1 сентября 2021">
 
     </div>
+    <p class="right-date"> На эти даты есть свободные номера. Пока есть.</p>
+     <div class="clients-field">
+    <label class="cliets-label" for="adults"> Взрослые: </label>
+    <div class="button-modal">
+    <button class="button-minus" type="button" aria-label="Уменьшить количество взрослых">-</button>
+    <input class="button-count" id="adults" type="number" name="adults" value="2">
+    <button class="button-minus" type="button" aria-label="Увеличить количество взрослых">+</button>
     </div>
+    <div class="clients-field">
+    <label class="clients-label" for="adults"> Дети: </label>
+    <div class="button-modal">
+    <button class="button-minus" type="button" aria-label="Уменьшить количество детей">-</button>
+    <input class="button-count" id="adults" type="number" name="adults" value="2">
+    <button class="button-minus" type="button" aria-label="Увеличить количество детей">+</button>
+
 
   </body>
   </html>
