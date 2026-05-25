@@ -45,7 +45,7 @@
               <span class="favorites">12</span>
             </a>
              <li class="navigation-iterm">
-            <a href="#"  class="button-want">Хочу сюда!</a>
+            <a href="#"  class="button-want button-brown">Хочу сюда!</a>
         </li>
         </ul>
       </nav>
@@ -120,7 +120,7 @@
          <form class="form-email" action="https://echo.htmlacademy.ru/" method="post">
           <label for="email"> </label>
           <input class="your-mail" id="email" type="e-mail" name="e-mail"  placeholder="Ваш email" required>
-          <button class="subscribe-button" type="submit">Подписаться </button>
+          <button class="subscribe-button button-blue" type="submit">Подписаться </button>
         </form>
         </section>
     </main>
@@ -162,7 +162,7 @@
         <!--<img class="html-academy-logo" src="images/logo-htmlacademy.svg" width="115" height="33" alt="Логотип Академии"> -->
        </a>
     </footer>
-   <!--<div class="modal-container">
+    <div class="modal-container">
     <div class="modal-window">
       <h2 class="modal-title"> Поиск гостиницы в Седоне</h2>
       <button class="modal-button-close" type="button">
@@ -171,25 +171,31 @@
 <path d="M14 1.29231L12.7077 0L7 5.70769L1.29231 0L0 1.29231L5.70769 7L0 12.7077L1.29231 14L7 8.29231L12.7077 14L14 12.7077L8.29231 7L14 1.29231Z" fill="black"/>
 </svg>
 </button>
-<form class="modal-form" action="https://echo.htmlacademy.ru/" method="get">
-<div class="field-date">
-<label class="label-date"> Дата Заезда:</label>
-<input class="modal-date" id="date-from" type="text" name="date-from" value="27 апреля 2020">
-<button class="calendar" type="button">
- </button>
-</div>
-<p class="wrong date"> Мы не можем отпарвить вас в прошлое</p>
-<div class="field-date">
-<label class="label-date"> Дата Выезда:</label>
-<input class="modal-date" id="date-to" type="text" name="date-from" value="1 сентября 2023">
-<button class="calendar" type="button">
-</button>
-<p class="free-date">На эти даты есть свободные места. Пока есть</p>
-</div>/-->
+ <form class="modal-form" action="https://echo.htmlacademy.ru/" method="get">
+    <div class="modal-date">
+    <label class="label-text" for="date-to">Дата заезда </label>
+    <div class="modal-date">
+    <input class="date-arrive" id="date-to" value="27 апреля 2020">
+    <button class="button-calendar" type="button"></button>
+    </div>
+    <p class="visually-hidden">Календарь</p>
+    <p class="wrong-date">Мы не можем отправить вас в прошлое</p>
+    <div class="date-field">
+    <label class="label-text" for="date-from">Дата заезда </label>
+    <div class="modal-date">
+    <input class="date-departure" id="date-from" value="27 апреля 2020">
+    <button class="button-calendar" type="button"></button>
+    <span class="visually-hidden">Календарь</span>
+    </div>
+    <p class="right-date">На эти даты есть свободные номера. Пока есть.</p>
+    </div>
+  </form>
 
 
 
 
     </div>
-    </body>
-    </html>
+    </div>
+
+  </body>
+  </html>
