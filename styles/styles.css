@@ -4,7 +4,7 @@
   font-weight: 400;
   src: url("../fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
-}
+} 
 
 @font-face {
   font-family: "PT Sans";
@@ -1102,6 +1102,18 @@ a {
   background-position: center;
 }
 
+.sort-link-card:hover{
+ border: 2px solid #000
+}
+
+.sort-link-card:focus{
+border: 2px solid #68A2CA;
+}
+
+.sort-link-card:active{
+border: 2px solid black;
+}
+
 .sort-link-list{
   display:block;
   min-width: 48px;
@@ -1111,6 +1123,19 @@ a {
   background-image: url("../images/list-icon.svg");
   background-repeat: no-repeat;
   background-position: center;
+}
+
+
+.sort-link-list:hover{
+border: 2px solid #000
+}
+
+.sort-link-list:focus{
+border: 2px solid #68A2CA;
+}
+
+.sort-link-list:active{
+border: 2px solid black;
 }
 
 
