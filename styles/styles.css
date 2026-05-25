@@ -838,7 +838,7 @@ border-radius: 0 4px 4px 0;
 }
 
 .control-input:checked{
-background-image: url("/images/check.svg");
+background-image: url("../images/check.svg");
 background-repeat: no-repeat;
 background-position:center;
 }
