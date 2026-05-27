@@ -18,7 +18,7 @@
             <a class="navigation-link navigation-link-active" href="index.html">Главная</a>
           </li>
           <li class="navigation-iterm">
-            <a class="navigation-link" href="about.html">О седоне</a>
+            <a class="navigation-link" href="about.html">О Cедоне</a>
           </li>
           <li class="navigation-iterm">
             <a class="navigation-link" href="catalog.html">Гостиницы</a>
@@ -167,39 +167,57 @@
       <h2 class="modal-title"> Поиск гостиницы в Седоне</h2>
       <button class="modal-button-close" type="button">
       <span class="visually-hidden">Закрыть</span>
-      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
-<path d="M14 1.29231L12.7077 0L7 5.70769L1.29231 0L0 1.29231L5.70769 7L0 12.7077L1.29231 14L7 8.29231L12.7077 14L14 12.7077L8.29231 7L14 1.29231Z" fill="black"/>
-</svg>
+
 </button>
  <form class="modal-form" action="https://echo.htmlacademy.ru/" method="get">
     <div class="modal-field">
-    <label class="label-text" for="date-to">Дата заезда: </label>
-    <input class="date-arrive" id="date-to" value="27 апреля 2020">
-         </div>
-   <p class="wrong-date">Мы не можем отправить вас в прошлое.</span>
-
-
-
-    <div class="modal-field">
-    <label class="label-text" for="date-from">Дата выезда: </label>
-    <input class="date-departure" id="date-from" value="1 сентября 2021">
-
+    <div>
+    <label class="label-text" for="date-to">Дата заезда:</label>
     </div>
-    <p class="right-date"> На эти даты есть свободные номера. Пока есть.</p>
-     <div class="clients-field">
-    <label class="cliets-label" for="adults"> Взрослые: </label>
+    <div>
+    <input class="date-arrive" id="date-to" value="27 апреля 2020">
+    <button class="calendar" type="button">
+    <span class="visually-hidden">Выбор даты заезда в календаре</span>
+    </button>
+    </div>
+    </div>
+     <p class="wrong-date">Мы не можем отправить вас в прошлое.</p>
+    <div class="modal-field">
+    <div>
+    <label class="label-text" for="date-to">Дата выезда:</label>
+    </div>
+    <div>
+    <input class="date-arrive" id="date-to" value="1 сентября 2021">
+    <button class="calendar" type="button">
+    <span class="visually-hidden">Выбор даты выезда в календаре</span>
+    </button>
+    </div>
+    </div>
+     <p class="right-date">На эти даты есть свободные номера. Пока есть.</p>
+   <div class="clients-field">
+    <label class="label-text" for="adults"> Взрослые: </label>
     <div class="button-modal">
-    <button class="button-minus" type="button" aria-label="Уменьшить количество взрослых">-</button>
-    <input class="button-count" id="adults" type="number" name="adults" value="2">
-    <button class="button-minus" type="button" aria-label="Увеличить количество взрослых">+</button>
+    <button class="button-minus" type="button" aria-label="Уменьшить количество взрослых"></button>
+    <input class="field-count" id="adults" type="number" name="adults" value="2">
+
+    <button class="button-plus buton-icon" type="button" aria-label="Увеличить количество взрослых"></button>
     </div>
     <div class="clients-field">
-    <label class="clients-label" for="adults"> Дети: </label>
+    <span class="form-label"></span>
+    <label class="label-text" for="adults"> Дети: </label>
+    <span class="tooltip"> </span>
+   <span class="tooltip-text">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет.
+    Дети до 6 лет размещаются бесплатно. </span>
     <div class="button-modal">
-    <button class="button-minus" type="button" aria-label="Уменьшить количество детей">-</button>
-    <input class="button-count" id="adults" type="number" name="adults" value="2">
-    <button class="button-minus" type="button" aria-label="Увеличить количество детей">+</button>
+    <button class="button-minus" type="button" aria-label="Уменьшить количество детей"></button>
+    <input class="field-count" id="adults" type="number" name="adults" value="2">
+    <button class="button-plus" type="button" aria-label="Увеличить количество детей"></button>
+    </div>
+    </div>
+    </div>
+    <button class="serch-button button-blue" type="submit">Найти</button>
 
 
+  </form>
   </body>
   </html>
