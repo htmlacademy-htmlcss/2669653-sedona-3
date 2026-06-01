@@ -553,10 +553,11 @@ padding: 96px 304px
   color: #ffffff;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 96px;
+  padding: 96px 258px 106px 258px;
   margin-top:0;
   text-align:center;
   min-height: 415px;
+  box-sizing:border-box
 }
 
 .title-newslatter {
