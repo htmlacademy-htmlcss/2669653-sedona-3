@@ -63,8 +63,6 @@ body {
   align-items: center
 }
 
-
-
 a.logo{
 display: block;
 margin-bottom: -8px;
@@ -169,7 +167,7 @@ width:525px
 }
 
 .image-welcome{
-padding: 47px 371px 82px;
+padding: 51px 371px 82px;
 
 }
 
@@ -228,7 +226,7 @@ padding: 47px 371px 82px;
 
 .city-sedona{
   width: 400px;
-  padding-top: 107px;
+  padding-top: 102px;
   margin: 0 auto;
   text-align: center;
   padding-bottom:102px;
