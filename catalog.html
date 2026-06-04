@@ -50,18 +50,21 @@
 </nav>
 </header>
 <main class="main-container">
-<header class="header-inner">
-<section class="catalog-services">
+<div class="header-inner">
+<header class="catalog-title">
 <h1 class="inner-header-title">Гостиницы Седоны</h1>
 <ul class="breadcrumbs">
 <li class="breadcrumbs-item">
 <a class=" breadcrumbs-link breadcrumbs-link-main" href="index.html"></a>
 </li>
 <li class="breadcrumbs-item">
-<a class="breadcrumbs-link">Гостиницы
+<a class="breadcrumbs-link">
+<span class="breadcrumbs-link-hotel">Гостиницы
+</span>
 </a>
 </li>
 </ul>
+</header>
 <form class="catalog-filters" action="https://echo.htmlacademy.ru/" method="get">
 <fieldset class="infrastructyre-filter">
 <legend class="catalog-filer-title">Инфраструктура:</legend>
@@ -81,13 +84,13 @@
 <li class="infrastructyre-item">
 <label class="control">
 <input class="control-input" type="checkbox" name="Wi-Fi">
-<span>Wi-Fi</span>
+<span class="item-option">Wi-Fi</span>
 </label>
 </li>
 </ul>
 </fieldset>
 <fieldset class="housing-filter">
-<legend class="catalog-filer-title">Тип жилья:
+<legend class="catalog-filer-title">Тип Жилья:
 </legend>
 <ul class="housing-list">
 <li class="housing-item">
@@ -111,7 +114,7 @@
 </ul>
 </fieldset>
 <fieldset class="price-filter">
-<legend class="catalog-filter-title"> Стоимость,Р
+<legend class="catalog-filter-title title-price"> Стоимость, ₽:
 </legend>
 <div class="filter-container">
 <label for="price-from" class="label-price">
@@ -139,14 +142,13 @@
 <button class="button-reset" type="reset">Сбросить</button>
 </div>
 </form>
-</section>
-</header>
-<section class="name-hotels">
+</div>
+<div class="name-hotels">
 <h2 class="visually-hidden">Гостиницы</h2>
 <div class="sorting">
-<h2 class="found-hotels">Найдено гостиниц:38</h2>
+<h2 class="found-hotels">Найдено гостиниц: 38</h2>
 <select class="select-control">
-<option value="сheap">Сначала дешёвое</option>
+<option value="сheap">Сначала дешевые</option>
 <option value="expensive">Сначала дорогое</option>
 <option value="popular">Сначала популярное</option>
 </select>
@@ -169,6 +171,9 @@
 </li>
 </ul>
 </div>
+
+<section class="list-hotels">
+<h2 class="visually-hidden">Список предлагаемых гостиниц</h2>
 <ul class="hotel-list">
 <li class="hotel-card">
 <a href="#" class="hotel-card-image-link">
@@ -176,7 +181,7 @@
 <h3 class="hotel-name">Amara Resort & Spa</h3>
 </a>
 <span class="type">Гостиница</span>
-<span class="price">От 4000р</span>
+<span class="price">От 4000 ₽</span>
 <a href="#" class="button-brown-hotel button-brown">Подробнее</a>
 <button class="button-hotel button-blue" type="button">В Избранное</button>
 <div class="stars-4">
@@ -187,10 +192,10 @@
 <li class="hotel-card">
 <a href="#" class="hotel-card-image-link">
 <img src="images/villas-at-poco-2.jpg" width="300" height="212" alt="Villas at Poco Diabloa">
-<h3 class="hotel-name">Villas at Poco Diabloa</h3>
+<h3 class="hotel-name">Villas at Poco Diablo</h3>
 </a>
 <span class="type">Гостиница</span>
-<span class="price">От 5000р</span>
+<span class="price">От 5000 ₽</span>
 <a href="#" class="button-brown-hotel button-brown">Подробнее</a>
 <button class="button-green" type="button">В избранном</button>
 <div class="stars-4">
@@ -204,7 +209,7 @@
 <h3 class="hotel-name">Desert Quail Inn</h3>
 </a>
 <span class="type">Гостиница</span>
-<span class="price">От 2500р</span>
+<span class="price">От 2500 ₽</span>
 <a href="#" class="button-brown-hotel button-brown">Подробнее</a>
 <button class="button-hotel button-blue" type="button">В избранноe</button>
 <div class="stars-3">
@@ -218,15 +223,17 @@
 <h3 class="hotel-name">GreenTree Inn</h3>
 </a>
 <span class="type">Гостиница</span>
-<span class="price">От 1500р</span>
+<span class="price">От 1500 ₽</span>
 <a href="#" class="button-brown-hotel button-brown">Подробнее</a>
 <button class="button-hotel button-blue" type="button">В избранноe</button>
 <div class="stars-2">
 <span class="visually-hidden">2,5 звезды</span>
 </div>
-<span class="grade">Рейтинг: 5</span>
+<span class="grade">Рейтинг: 5,0</span>
 </li>
 </ul>
+</section>
+</div>
 <ul class="pagination">
 <li class="pagination-item">
 <a href="#" class="pagination-current">1</a>
@@ -247,13 +254,12 @@
 <a href="#" class="pagination-link">10</a>
 </li>
 </ul>
-</section>
+
 <section class="mail-catalog">
-<h2 class="title-newslatter"> Подпишитесь на рассылку </h2>
-<p class="catalog-newsletter">
+<h2 class="title-newslatter-catalog"> Подпишитесь на рассылку </h2>
 </p>
 <p class="section-text mailing-description-catalog">
-Только полезная информация и никакого спама, честное бойскаутское!
+  Только полезная информация и никакого спама, честное бойскаутское!
 </p>
 <form class="form-catalog-email" action="https://echo.htmlacademy.ru/" method="post">
 <label class="visually-hidden" for="subscribe-email"></label>
