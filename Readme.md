@@ -1,8 +1,8 @@
 # Личный проект «Седона»
 
 * Студент: [Александр Васильевич](https://up.htmlacademy.ru/htmlcss-individual/3/user/2669653).
-* Наставник: `Неизвестно`.
-
+* Наставник: [Андрей Грачев](https://htmlacademy.ru/profile/angra).
+* Сайт [Мой проект](https://aleksaleks39616-prog.github.io/2669653-sedona-3/)
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
